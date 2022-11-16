@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+        }
+
+        h1,
+        legend {
+            text-align: center;
+        }
+
+        fieldset {
+            margin: 0px 800px 0px 200px;
+            border-radius: 12px;
+        }
+        #fnm,#em ,#address{
+            background-color: darkslategrey;
+            color: aliceblue;
+        }
+    </style>
+    <title>Registraion.html</title>
+</head>
+
+<body>
+
+    <h1>Registration form</h1>
+    <fieldset>
+
+        <legend>Registration Form</legend>
+        <form action="">
+
+
+            <table>
+
+                <tr>
+                    <td><label for="fnm">Full Name</label></td>
+                    <td><input type="text" name="fnm" id="fnm"></td>
+                </tr>
+                <tr>
+                    <td><label for="em">Email</label></td>
+                    <td><input type="email" name="em" id="em"></td>
+                </tr>
+                <tr>
+                    <td><label for="gen">Gender</label></td>
+                    <td><input type="radio" name="gen" id="r1">
+                        <input type="radio" name="gen" id="r2"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="em">Eduacation Qualification</label></td>
+                    <td><input type="checkbox" name="ch1" id="ch1">10th <br>
+
+                        <input type="checkbox" name="ch2" id="ch2">12th <br>
+                        <input type="checkbox" name="ch3" id="ch3">Graduated <br>
+                        <input type="checkbox" name="ch4" id="ch4">Post Graduated <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date of Birth</label>
+                    </td>
+                    <td><input type="date" name="date"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="">Required Stream</label></td>
+                    <td>
+
+                        <select name="select1" id="slc1">
+                            <option value="">Select a option........</option>
+                            <optgroup label="Science">
+                                <option value="sci">Physic</option>
+                                <option value="sci">Maths</option>
+                                <option value="sci">Biology</option>
+                                <option value="sci">Chemestry</option>
+                            </optgroup>
+                            <optgroup label="Commerce">
+                                <option value="sci">Accounts</option>
+                                <option value="sci">OC</option>
+                                <option value="sci">BookKeeping</option>
+                                <option value="sci">CMaths</option>
+                            </optgroup>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address :</label></td>
+                    <td>
+                        <textarea name="address" id="address" cols="20" rows="10"></textarea>
+
+                    </td>
+
+                </tr>
+
+
+            </table>
+
+
+
+        </form>
+
+
+    </fieldset>
+</body>
+
+</html>
